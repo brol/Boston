@@ -2,7 +2,7 @@
 # -- BEGIN LICENSE BLOCK ----------------------------------
 # This file is part of Boston, a theme for Dotclear.
 #
-# Copyright (c) 2009
+# Copyright (c) 2009-2016
 # annso contact@as-i-am.fr
 #
 # Licensed under the GPL version 2.0 license.
@@ -60,14 +60,12 @@ code, pre {
 #page {
 	background: #fff;
 }
-
 /* ------------------------------------------------------------
 	4. HAUT DE PAGE
 ------------------------------------------------------------- */
 
 #top {height:20px;}
 #prelude { top:-50px; position:fixed; }
-
 /* ------------------------------------------------------------
 	5. WRAPPER MAIN CONTENT
 ------------------------------------------------------------- */
@@ -82,7 +80,7 @@ code, pre {
 	color: #6B6F61;
 	text-decoration: none;
 }
-
+#breadcrumb {margin:0;padding:10px 0 0 10px;width:530px;}
 /* ------------------------------------------------------------
 	6. BILLETS
 ------------------------------------------------------------- */
@@ -146,8 +144,6 @@ a.comment_count:hover, a.ping_count:hover, a.attach_count:hover {
 	color: #6B6F61;
 	text-decoration: none;
 }
-
-
 /* ------------------------------------------------------------
 	7. COMMENTAIRES, PINGS
 ------------------------------------------------------------- */
@@ -216,8 +212,6 @@ a.comment_count:hover, a.ping_count:hover, a.attach_count:hover {
 }
 #comment-form .jstHandle {margin-left:168px;}
 #comments-feed { margin-left:10px;}
-
-
 /* ------------------------------------------------------------
 	8. SIDEBAR
 ------------------------------------------------------------- */
@@ -280,8 +274,6 @@ a.comment_count:hover, a.ping_count:hover, a.attach_count:hover {
 .tags {
 	text-align: justify;
 }
-
-
 /* ------------------------------------------------------------
 	9. FOOTER
 ------------------------------------------------------------- */
@@ -303,7 +295,6 @@ a.comment_count:hover, a.ping_count:hover, a.attach_count:hover {
 	font-style: italic;
 	font-weight: bold;
 }
-
 /* ------------------------------------------------------------
 	10. CLASSES COMMUNES
 ------------------------------------------------------------- */
@@ -362,8 +353,6 @@ a.comment_count:hover, a.ping_count:hover, a.attach_count:hover {
 .little-text { font-size : .8em;}
 .little-upper-text { font-size : .8em; text-transform : uppercase; }
 
-
-
 /* ------------------------------------------------------------
 	11. PAGES SPECIFIQUES
 ------------------------------------------------------------- */
@@ -402,7 +391,7 @@ a.comment_count:hover, a.ping_count:hover, a.attach_count:hover {
 #content-info img {
   max-width:100%;
 }
-.post-excerpt p img, .post-content p img {
+.post-excerpt img, .post-content img {
   max-width:100%;
 }
 .post embed, .post iframe {max-width:100%;}

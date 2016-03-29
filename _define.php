@@ -2,7 +2,7 @@
 # -- BEGIN LICENSE BLOCK ----------------------------------
 # This file is part of Boston, a theme for Dotclear.
 #
-# Copyright (c) 2009
+# Copyright (c) 2009-2016
 # annso contact@as-i-am.fr
 #
 # Licensed under the GPL version 2.0 license.
@@ -14,9 +14,10 @@ $this->registerModule(
 	/* Name */			"Boston",
 	/* Description*/	"Thème en tons de gris",
 	/* Author */		"annso, Pierre Van Glabeke",
-	/* Version */		'1.2',
+	/* Version */		'1.3',
 	array(
-		/* Type */		'type' =>			'theme',
-		              'dc_min' => '2.7'
+		'type' =>		'theme',
+		'tplset' => 'mustek',
+		'dc_min' => '2.8'
 	)
 );

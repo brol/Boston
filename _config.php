@@ -2,7 +2,7 @@
 # -- BEGIN LICENSE BLOCK ----------------------------------
 # This file is part of Boston, a theme for Dotclear.
 #
-# Copyright (c) 2009
+# Copyright (c) 2009-2016
 # annso contact@as-i-am.fr
 #
 # Licensed under the GPL version 2.0 license.
