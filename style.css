@@ -123,7 +123,7 @@ code, pre {
 .post-title:first-letter {
 	font-style: normal;
 }
-.post-info { display: none; }
+.post-info, .page-info { display: none; }
 .post-tags { display: none;}
 
 .post-info-co {

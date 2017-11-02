@@ -14,10 +14,10 @@ $this->registerModule(
 	/* Name */			"Boston",
 	/* Description*/	"Thème en tons de gris",
 	/* Author */		"annso, Pierre Van Glabeke",
-	/* Version */		'1.3',
+	/* Version */		'1.3.1',
 	array(
 		'type' =>		'theme',
 		'tplset' => 'mustek',
-		'dc_min' => '2.8'
+		'dc_min' => '2.9'
 	)
 );
